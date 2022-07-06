@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+</style>
+<body>
+    <h1>Manipulação de Dados</h1>
+    <p>Aprendendo a manipular os dados com Guanabara!</p>
+    <script>
+    var nr = Number(window.prompt("Digite um número") ) //string
+    var nr2 = Number(window.prompt("Digite outro número") ) //string
+
+    // utilizei a conversão Number para converter o String para Number para o '+' passar a ser de adição, porque o ''Prompt'' é string originalmente e estava fazendo o + ficar em concatenação'
+   
+    var s = nr + nr2
+    window.alert(`A soma entre ${nr} e ${nr2} é igual a ${s}`) // concatenação
+
+    // (number + numer) + para adição
+    // (string + string) + para concatenação
+    </script>
+    
+</body>
+</html>
