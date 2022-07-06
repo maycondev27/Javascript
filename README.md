@@ -1,2 +1,2 @@
 # Javascript
- Estudos e projetos em JS
+Estudos básicos em Javascript
